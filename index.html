@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.svg" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400&family=Sora:wght@700&family=Work+Sans:wght@400&family=Work+Sans:wght@700&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="./_app/immutable/assets/0.CKWACZd-.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.CtxFYKhk.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/B_zeeg_B.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/D8HzzbqD.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/ChzjyeIL.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.BvuTv3J0.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/CczSk2NC.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Bm474YbY.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Cj1bnoJx.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/BFqUS5z0.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.bMHaxx0B.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.G0r14r4A.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/n1dyN4G0.js"><!--1uha8ag--><!----><title>LZY Visual Pixelmap Generator</title>
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents"><!--[--><!--[--><!----><div class="flex flex-col min-h-screen"><main class="main flex flex-col p-1 w-full max-w-[64rem] mx-auto"><!----><section><div class="pixelmap-app"><header class="app-title-header"><h1>LZY Visual Pixelmap Generator</h1></header> <div class="canvas-preview-container"><canvas style="width: 3242px; height: 1080px;" width="3242" height="1080"></canvas></div> <div class="controls-main-container"><div class="controls-grid"><div class="control-column"><div class="control-item"><label>Image Output Size (1x):</label> <div class="control-item-row"><input id="widthInput" inputmode="numeric" aria-label="Image Width" type="text" value="3242"/><span>X</span> <input id="heightInput" inputmode="numeric" aria-label="Image Height" type="text" value="1080"/></div></div> <div class="control-item"><hr/></div> <div class="control-item"><label class="toggle-switch-label"><span>Background:</span> <label class="switch"><input id="backgroundToggle" type="checkbox" checked/> <span class="slider-toggle round"></span></label></label></div> <div class="control-item"><label>Custom Background:</label> <div class="control-item-row"><div class="file-container"><div class="file-input"><input type="file" accept="image/*"/></div> <div class="file-input-clear"><button class="action-button">✖</button></div></div></div></div> <div class="control-item"><hr/></div> <div class="control-item"><label for="gridRowsSlider">Grid Rows: (15)</label> <input id="gridRowsSlider" min="4" max="48" step="1" type="range" value="15"/></div> <div class="control-item"><label for="gridThicknessSlider">Grid Thickness [px @1x]: (1)</label> <input id="gridThicknessSlider" min="0" max="5" step="0.1" type="range" value="1"/></div> <div class="control-item"><label class="toggle-switch-label"><span>Grid Perfect Square:</span> <label class="switch"><input id="stretchCell" type="checkbox"/> <span class="slider-toggle round"></span></label></label></div> <div class="control-item"><div style="display: flex; align-items: center; justify-content: space-between;"><label for="gridColorPicker" style="margin-right: 10px;">Grid Color:</label> <input id="gridColorPicker" type="color" value="#ffffff"/></div></div></div> <div class="control-column"><div class="control-item"><label class="toggle-switch-label"><span>Logo:</span> <label class="switch"><input id="logoToggle" type="checkbox" checked/> <span class="slider-toggle round"></span></label></label></div> <div class="control-item"><label>Custom Logo:</label> <div class="control-item-row"><div class="file-container"><div class="file-input"><input type="file" accept="image/*"/></div> <div class="file-input-clear"><button class="action-button">✖</button></div></div></div></div> <div class="control-item"><label for="logoSizeSlider">Logo Size: (1)</label> <input id="logoSizeSlider" min="0.1" max="3" step="0.1" type="range" value="1"/></div> <div class="control-item"><label class="toggle-switch-label"><span>Logo Color Bar:</span> <label class="switch"><input id="logoColorBarToggle" type="checkbox" checked/> <span class="slider-toggle round"></span></label></label></div> <div class="control-item"><label for="logoColorBarSlider">Logo Color Bar Size: (1)</label> <input id="logoColorBarSlider" min="0.1" max="3" step="0.1" type="range" value="1"/></div> <div class="control-item"><hr/></div> <div class="control-item"><label class="toggle-switch-label"><span>Label:</span> <label class="switch"><input id="labelToggle" type="checkbox" checked/> <span class="slider-toggle round"></span></label></label></div> <div class="control-item"><label for="labelText">Label Text:</label> <input id="labelText" type="text" value="A1"/></div> <div class="control-item"><label for="labelSizeSlider">Label Size: (1)</label> <input id="labelSizeSlider" min="0.1" max="3" step="0.1" type="range" value="1"/></div> <div class="control-item"><label for="labelSpaceFromCenterSlider">Label Space From Center: (0.6)</label> <input id="labelSpaceFromCenterSlider" min="0" max="1" step="0.1" type="range" value="0.6"/></div> <div class="control-item"><div style="display: flex; align-items: center; justify-content: space-between;"><label for="labelLeftColorPicker" style="margin-right: 10px;">Label Left Color:</label> <input id="labelLeftColorPicker" type="color" value="#ffffff"/></div></div> <div class="control-item"><div style="display: flex; align-items: center; justify-content: space-between;"><label for="labelRightColorPicker" style="margin-right: 10px;">Label Right Color:</label> <input id="labelRightColorPicker" type="color" value="#000000"/></div></div></div></div> <div class="action-buttons-container"><button class="action-button reset-button" style="margin-right: 10px;">Reset All</button> <button class="action-button">Save Image (3242x1080)</button></div></div></div></section><!----><!----></main></div><!----><!--]--> <!--[!--><!--]--><!--]-->
+			
+			<script>
+				{
+					__sveltekit_1p54u7m = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("./_app/immutable/entry/start.CtxFYKhk.js"),
+						import("./_app/immutable/entry/app.BvuTv3J0.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data: [null,null],
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
